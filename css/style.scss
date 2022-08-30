@@ -82,7 +82,7 @@ button {
     font-size: 1.1rem;
     font-weight: $font-weight-regular;
     text-align: start;
-    transition: all 5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     &:hover {
       color: $soft-red;
     }
