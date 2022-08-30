@@ -32,7 +32,7 @@ body {
  font-family: $kumbh-sans, sans-serif;
  margin: auto;
  margin-bottom: 2rem;
- width: 90%;
+ width: 21.25rem;
 }
 
 .illustration {
@@ -80,6 +80,9 @@ button {
     font-size: 1.1rem;
     font-weight: $font-weight-regular;
     text-align: start;
+    &:hover {
+      color: $soft-red;
+    }
   }
 }
 
@@ -89,4 +92,16 @@ p {
   font-size: 0.9rem;
   line-height: 1.4rem;
   padding: 0 1rem 1rem 0;
+}
+
+.active h2 {
+  font-weight: $font-weight-semibold;
+}
+
+.active img {
+  transform: rotate(180deg);
+}
+
+.active p {
+  display: block;
 }
