@@ -13,6 +13,8 @@ $verydark-grayish-blue: hsl(237, 12%, 33%);
 $dark-grayish-blue: hsl(240, 6%, 50%);
 $light-grayish-blue: hsl(240, 5%, 91%);
 
+$bg-pattern: url(../images/bg-pattern-desktop.svg);
+
 * { 
   margin: 0;
   padding: 0;
@@ -75,6 +77,7 @@ button {
   border: none;
   cursor: pointer;
   padding: 1em 0;
+  transition: all 5s ease-in-out;
   & h2 {
     color: $verydark-desatured-blue;
     font-size: 1.1rem;
@@ -94,6 +97,10 @@ p {
   padding: 0 1rem 1rem 0;
 }
 
+.illustration-desk {
+  display: none;
+}
+
 .active h2 {
   font-weight: $font-weight-semibold;
 }
@@ -104,4 +111,49 @@ p {
 
 .active p {
   display: block;
+}
+
+@media screen and (min-width: 62rem) {
+  body {
+    min-height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    width: 910px;
+    height: 450px;
+    & ul {
+      grid-column: 2/3;
+      padding: 3rem 4rem 4rem 3rem;
+    }
+    & h1 {
+      text-align: start;
+    }
+  }
+  .illustration {
+    display: none;
+  }
+  .illustration-desk {
+    background-image: $bg-pattern;
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position: -170px -100px;
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    & .woman-desk {
+      width: 26.5rem;
+      object-fit: contain;
+      object-position: right;
+      transform: translate(-50px, 50px);
+      position: fixed;
+    }
+    & .box-desk {
+      transform: translate(-90px, 150px);
+      position: fixed;
+    }
+  }
 }
