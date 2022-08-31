@@ -2,10 +2,10 @@
  Faq accordion card main challenge solution in frontendmentor.io
  
  ## Desktop Layout
- ![faq-accordion-desktop](https://user-images.githubusercontent.com/91050670/187638581-4def88bd-b439-469c-936e-42b64a18189f.png)
+ ![faq-accordion-desktop](https://user-images.githubusercontent.com/91050670/187662026-6cae9d9e-becf-4689-85b0-e1cdee444f53.png)
  
  ## Responsive Layout
- ![faq-accordion-mobile](https://user-images.githubusercontent.com/91050670/187638734-7186c8e6-fe29-44a1-bf07-f2aba2b7d81e.png)
+ ![faq-accordion-mobile](https://user-images.githubusercontent.com/91050670/187662224-71b3afe1-28c0-4162-a3e2-ed468e513081.png)
 
  ## Technologies used
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
